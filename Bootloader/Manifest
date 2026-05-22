@@ -1,0 +1,19 @@
+return {
+    version = "3.0.0-api",
+    bootManifestUrl = ""https://nw-hub-api.ceedifgame.workers.dev/boot-manifest"",
+    fallbackDiscordInvite = "https://discord.gg/aZebaMx4WT",
+    requestTimeoutSeconds = 8,
+    unsupportedGameText = "Hey, we do not have anything for this game yet. If you want to see us add support, join the Discord by putting the link below into google, and let us know what you want next.",
+    theme = {
+        Background = Color3.fromRGB(25, 0, 45),
+        Header = Color3.fromRGB(45, 0, 90),
+        Accent = Color3.fromRGB(150, 50, 255),
+        Text = Color3.fromRGB(240, 240, 240),
+        SecondaryText = Color3.fromRGB(200, 200, 200),
+        DiscordButton = Color3.fromRGB(114, 137, 218),
+        Locked = Color3.fromRGB(150, 0, 0),
+        Unlocked = Color3.fromRGB(0, 150, 0),
+        RequiresRank = Color3.fromRGB(120, 80, 0),
+        Neutral = Color3.fromRGB(100, 100, 100),
+    },
+}

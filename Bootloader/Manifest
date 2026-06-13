@@ -1,7 +1,7 @@
 return {
     version = "3.0.0-api",
     bootManifestUrl = ""https://nw-hub-api.ceedifgame.workers.dev/boot-manifest"",
-    fallbackDiscordInvite = "https://discord.gg/aZebaMx4WT",
+    fallbackDiscordInvite = "https://discord.gg/8mXyDBsABM",
     requestTimeoutSeconds = 8,
     unsupportedGameText = "Hey, we do not have anything for this game yet. If you want to see us add support, join the Discord by putting the link below into google, and let us know what you want next.",
     theme = {

@@ -1,9 +1,22 @@
 return {
-    version = "3.0.0-api",
-    bootManifestUrl = ""https://nw-hub-api.ceedifgame.workers.dev/boot-manifest"",
+    version = "3.1.0-mini-manifest",
+
+    bootManifestUrl = "https://nw-hub-api.ceedifgame.workers.dev/boot-manifest",
+
     fallbackDiscordInvite = "https://discord.gg/8mXyDBsABM",
+
     requestTimeoutSeconds = 8,
+
     unsupportedGameText = "Hey, we do not have anything for this game yet. If you want to see us add support, join the Discord by putting the link below into google, and let us know what you want next.",
+
+    announcements = false,
+    announcementsUrl = "https://raw.githubusercontent.com/Ceedif/Nw_Hub/refs/heads/main/Bootloader/Announcement",
+
+    security = {
+        requireHttps = true,
+        requireSameOriginScripts = true,
+    },
+
     theme = {
         Background = Color3.fromRGB(25, 0, 45),
         Header = Color3.fromRGB(45, 0, 90),
